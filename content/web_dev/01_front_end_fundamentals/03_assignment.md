@@ -1,5 +1,8 @@
 # Band Page
 
+  Objectives:
+  - Learn about common tags (h1, h2, p, ul, li)
+
   1. Prominently display the name of the band
       - Use an h1
   1. Add an about blurb
