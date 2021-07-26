@@ -14,4 +14,4 @@ There are a myriad of IDEs and text editors out there and for the most part the 
 
 ## Installing Your First IDE
 
-We highly recommend that you start with Visual Studio Code. It's an amazing general-purpose editor built by Microsoft. It can handle a wide range of languages and is useful for writing code meant for all sorts of different applications. It's a great starting place and likely an editor you'll come back to regularly. Install it from [here](https://code.microsoft.com) before moving forward.
+We highly recommend that you start with Visual Studio Code. It's an amazing general-purpose editor built by Microsoft. It can handle a wide range of languages and is useful for writing code meant for all sorts of different applications. It's a great starting place and likely an editor you'll come back to regularly. Install it from [here](https://code.visualstudio.com) before moving forward.
