@@ -38,4 +38,6 @@ It's time to add some flair to your own website. Start by opening the band websi
 1. Change the width of any images to `250px` using the `width` property
     - What happens if you also change the `height`?
 1. Add a background color to the entire list using the `background-color` property
-1. Now add a different background color to each list item
+1. Now make all the list items orange
+1. Change the background color of the whole page
+    - What selector should you use? Which selectors *can* you use? 
