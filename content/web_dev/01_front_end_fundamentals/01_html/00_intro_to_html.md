@@ -32,5 +32,5 @@ Sometimes, just rendering a paragraph isn't enough. Sometimes we need more funct
 An attribute is used to tell the interpreter that there are special modifications being made to the element. One popular attribute is the `class` attribute, which is useful for CSS. It looks like this:
 
 ```html
-<p class="some-paragraph-class">This is a paragraph element with a class attribute. Notice how the attribute has a name (class) and a value ("some-paragraph-class"). Also check out how attributes go inside the opening tag, after the name of the element.</p>
+<p class="some-paragraph-class">This is a paragraph element with a class attribute. Notice how the attribute has a name (class) and a value ("some-paragraph-class"). Also check out how attributes go inside the opening tag, after the name of the element. Finally, notice that the value for class is surrounded by quotation marks. Never forget the quotation marks!</p>
 ```
