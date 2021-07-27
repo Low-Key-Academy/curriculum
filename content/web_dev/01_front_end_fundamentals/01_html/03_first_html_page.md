@@ -15,10 +15,10 @@ If you already downloaded [VS Code](https://code.visualstudio.com) (or a differe
 1. Open Visual Studio Code (or your other text editor)
 1. Use the file menu to open your `dev` folder in Visual Studio Code (the one we created in the intro in the computer's root folder)
 1. Create a new folder called `web_dev`
-    - You can make a new folder in VS Code with the "New Folder" button in the explorer tab ![VS Code new folder helper](./images/vscode_new_folder_helper.png)
+    - You can make a new folder in VS Code with the "New Folder" button in the explorer tab ![VS Code new folder helper](../images/vscode_new_folder_helper.png)
 1. Inside the `web_dev` folder, make another new folder called `html`
 1. Inside the `html` folder create a file called `index.html`. The ".html" part is all we need to tell VS Code (and the browser) that it's dealing with an HTML file
-    - The "New File" button is right next to the "New Folder" button ![VS Code new file helper](./images/vscode_new_file_helper.png)
+    - The "New File" button is right next to the "New Folder" button ![VS Code new file helper](../images/vscode_new_file_helper.png)
 1. Click on the new file to open it and copy/paste the following HTML code in its entirety:
     - ```html
       <!DOCTYPE html>
