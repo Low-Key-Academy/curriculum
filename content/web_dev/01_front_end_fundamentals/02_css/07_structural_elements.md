@@ -60,10 +60,10 @@ Look at how the `div`s are creating 3 distinct sections for our content. We coul
 
 Solving our second problem requires more understanding. If we don't change anything else, our header and paragraph elements will appear to take up the entire horizontal width of the page, but that's not exactly true anymore. Now, our paragraphs and headers are nested *inside* of a `div`.
 
-`div` elements are `block` elements, and they will respect any width value we give them. So if we change the width property in the `concert` class to `200px`, all the `div`s will be set to `200px` wide. The paragraph and header elements inside the `div`s will now take up the entirety of the horizontal space available in their `div`.
+`div` elements are `block` elements, and they will respect any width value we give them. So if we change the width property in the `concert` class to `200px`, all the `div`s will be set to `200px` wide. The paragraph and header elements inside the `div`s will now collapse as well. `block` elements can only take up the horizontal space available in their parent!
 
 Try it and see for yourself!
 
-To describe the relationship between HTML elements, it's useful (and common) to use the ancestry analogy. In this case, the `div`s are parents to the `h3`, `h4`, and `p` elements. Each `div` is a sibling to each other `div` and the `h1` and so-on.
+To describe the relationship between HTML elements, it's useful (and common) to use the ancestry analogy. In this case, the `div`s are parents to the `h3`, `h4`, and `p` elements. Each `div` is a sibling to each other `div` and the `h1`.
 
 **Quick Tip**: Notice how useful indentation is in our HTML code! We can easily see the ancestral relationship of all of our elements just by looking at the indentation! It might not matter to the browser, but it sure as heck makes it easier to write code!
