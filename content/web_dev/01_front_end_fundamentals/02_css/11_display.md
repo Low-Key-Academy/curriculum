@@ -9,6 +9,8 @@ So far, we've played around with boxes and what's called "outer display" (`inlin
 
 So far, when we've wrapped our contents in `div`s, our elements have behaved the same way as they would if they were just in the `body`. The only difference is that our elements are now confined within the space available in their parent `div`. Modern sites however, have more complex needs. For instance, `block` and `inline` elements alone can't help us achieve the image above very easily. We need the 3 blue boxes to behave differently than plain text in a blog site.
 
-It would be really nice if we could get the blue boxes to go next to each other like `inline` elements, respect the full box model like `block` elements, and flow "responsively" based on the size of the page (to account for phones and tablets). Inner display helps us achieve all these goals.
+It would be really nice if we could get the blue boxes to go next to each other like `inline` elements, respect the full box model like `block` elements, and flow "responsively" based on the size of the page (to account for phones and tablets).
 
-Contrary to outer display, inner display defines how an element's children will behave. Lucky for us, there are two commonly used inner display types that solve our problems with relative ease.
+Contrary to outer display, inner display defines how an element's children will behave. Lucky for us, there are two commonly used inner display types that solve our problems with relative ease: `flex` and `grid`. They are purpose-built to handle complexities that were previously difficult to do in CSS. 
+
+`flex` and `grid` are essentially two different approaches to solving the same problems. They allow us to control how an element's children behave, they allow us to easily center things vertically and horizontally (CSS didn't make this easy in the past), and they allow us to make complex layouts that account for responsive design (different screen sizes).
