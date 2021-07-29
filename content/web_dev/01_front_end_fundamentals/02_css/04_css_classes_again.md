@@ -9,8 +9,12 @@ You might have realized that classes are **element agnostic**. In other words, w
 ```
 This is really useful because we can start defining classes that provide generic styles that work across elements, which helps us keep our site looking consistent.
 
-We can also add more than one class to the same element. For instance, we might write a `secondary-text` class that has the following CSS.
+We can also add more than one class to the same element. For instance, we might write a `secondary-text` class that has the following CSS. Added to our original CSS, it looks like this:
 ```css
+.primary-bg {
+  background-color: blue;
+}
+
 .secondary-text {
   color: white;
 }
