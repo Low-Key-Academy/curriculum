@@ -17,8 +17,8 @@ The first, and possibly most obvious thing to do, might be to just apply specifi
     </style>
   </head>
   <body>
-    <p>First blue paragraph</p>
-    <p>Second blue paragraph</p>
+    <p>First aqua paragraph</p>
+    <p>Second aqua paragraph</p>
     <p style="background-color: yellow;">First yellow paragraph</p>
     <p style="background-color: yellow;">Second yellow paragraph</p>
     <p style="background-color: yellow;">Third yellow paragraph</p>
