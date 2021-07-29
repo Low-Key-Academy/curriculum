@@ -11,5 +11,5 @@ Your client wants you to do the following:
       - Can you modify an existing class to do this? 
 1. Gross, now it looks like the site is impossible to read, change the text for the stuff in the yellow backgrounds to `black`
 1. Let's add a little variation. Give the first and third lists a `2px` thick, `solid`, `green` border
-      - Learn how to use the `border` property <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">here</a>
+      - Use this CSS property/value pair in your selector ```border: 2px solid green;```
 1. The last paragraph really doesn't have enough pop. Make a class that defines a secondary background color and make it `pink`
