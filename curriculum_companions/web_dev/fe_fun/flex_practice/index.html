@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 1.2em;
+      }
+
+      .rounded-border {
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+
+      .padded {
+        padding: 10px 20px;
+      }
+
+      .pink-bg {
+        background-color: lightpink;
+      }
+
+      .aqua-bg {
+        background-color: aqua;
+      }
+
+      .quarter-width {
+        width: 25%;
+      }
+
+      .half-width {
+        width: 50%;
+      }
+
+      .full-width {
+        width: 100%;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="rounded-border padded aqua-bg">
+      <h1>My Cool Website</h1>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Projects</a>
+        <a href="#">Articles</a>
+      </nav>
+    </header>
+    <main>
+      <section class="quarter-width rounded-border padded pink-bg">
+        <h2>Featured Projects</h2>
+        <div class="full-width rounded-border padded">
+          <h3>Band Site</h3>
+          <p>This is a site I built for my favorite band!</p>
+        </div>
+      </section>
+      <section class="half-width rounded-border padded pink-bg">
+        <h2>Featured Blogs</h2>
+      </section>
+    </main>
+  </body>
+</html>
