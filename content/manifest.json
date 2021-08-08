@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "slug": "full-stack-web-development",
+      "name": "web_dev",
+      "displayName": "Full Stack Web Development",
+      "description": "",
+      "type": "track",
+      "children": [
+        {
+          "slug": "intro",
+          "name": "00_intro",
+          "displayName": "Introduction",
+          "type": "module",
+          "children": [
+            {
+              "slug": "welcome",
+              "name": "00_welcome.md",
+              "displayName": "Welcome",
+              "type": "lesson"
+            },
+            {
+              "slug": "boring-stuff",
+              "name": "01_boring_stuff.md",
+              "displayName": "Boring Stuff",
+              "type": "lesson"
+            }
+          ]
+        },
+        {
+          "slug": "front-end-fundamentals",
+          "name": "01_front_end_fundamentals",
+          "displayName": "Front End Fundamentals",
+          "type": "module",
+          "children": [
+            {
+              "slug": "intro",
+              "name": "00_intro",
+              "displayName": "Introduction",
+              "type": "section",
+              "children": [
+                {
+                  "slug": "intro-to-front-end-fundamentals",
+                  "name": "00_intro_to_fe_fun.md",
+                  "displayName": "Introduction to Front End Fundamentals",
+                  "type": "lesson"
+                },
+                {
+                  "slug": "intro-to-ides",
+                  "name": "00_intro_to_ides.md",
+                  "displayName": "Introduction to IDEs",
+                  "type": "lesson"
+                }
+              ]
+            },
+            {
+              "slug": "html",
+              "name": "01_html",
+              "displayName": "HTML",
+              "type": "section",
+              "children": [
+                {
+                  "slug": "intro-to-html",
+                  "name": "00_intro_to_html.md",
+                  "displayName": "Introduction to HTML",
+                  "type": "lesson"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

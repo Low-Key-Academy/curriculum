@@ -41,12 +41,24 @@
 
       .full-width {
         width: 100%;
+        box-sizing: border-box;
       }
 
       header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+      }
+
+      .projects {
+        display: flex;
+        flex-direction: column;
       }
     </style>
   </head>
@@ -63,13 +75,31 @@
     <main>
       <section class="quarter-width rounded-border padded pink-bg">
         <h2>Featured Projects</h2>
-        <div class="full-width rounded-border padded">
-          <h3>Band Site</h3>
-          <p>This is a site I built for my favorite band!</p>
+        <div class="projects">
+          <div class="full-width rounded-border padded">
+            <h3>Band Site</h3>
+            <p>This is a site I built for my favorite band!</p>
+          </div>
+          <div class="full-width rounded-border padded">
+            <h3>Band Site</h3>
+            <p>This is a site I built for my favorite band!</p>
+          </div>
+          <div class="full-width rounded-border padded">
+            <h3>Band Site</h3>
+            <p>This is a site I built for my favorite band!</p>
+          </div>
+          <div class="full-width rounded-border padded">
+            <h3>Band Site</h3>
+            <p>This is a site I built for my favorite band!</p>
+          </div>
         </div>
       </section>
       <section class="half-width rounded-border padded pink-bg">
         <h2>Featured Blogs</h2>
+        <div>
+          <h3>My first blog post</h3>
+          <p>hello world</p>
+        </div>
       </section>
     </main>
   </body>
